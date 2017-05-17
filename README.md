@@ -2,6 +2,8 @@
 
 Référentiel des règles du [Green Code Label](https://www.greencode-label.org/).
 
+Site web associé : https://greencodelab.github.io/.
+
 ## Code - Client
 
 - [AdaptProcessingIfWindowNotFocused](/code-client/AdaptProcessingIfWindowNotFocused.md)
