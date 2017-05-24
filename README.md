@@ -4,11 +4,11 @@ Ce projet contient le référentiel des règles du [Green Code Label](https://ww
 
 Les règles sont réparties en différentes catégories :
 
-- [code côté client](#code-client) ;
-- [code côté serveur](#code-serveur) ;
+- [code côté client](#code---client) ;
+- [code côté serveur](#code---serveur) ;
 - [contenu](#contenu) ;
 - [design](#design) ;
-- [hébergement](#hebergement) ;
+- [hébergement](#hébergement) ;
 - [mesure](#mesure) ;
 - [processus](#processus).
 
