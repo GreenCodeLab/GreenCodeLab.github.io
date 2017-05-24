@@ -3,6 +3,4 @@ validated: false
 level: 2
 ---
 
-## Utilisation d'automatisation : TU, TF, IC...
-
-À détailler
+## Utiliser des outils d'automatisation : TU, TF, IC...
