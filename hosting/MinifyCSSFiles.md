@@ -16,3 +16,5 @@ Les fichiers CSS peuvent être allégés de plusieurs manières :
   * supprimer les « ; » redondants ou de fin ;
   * supprimer les déclarations vides (ou en commentaire) ;
   * optimiser les déclarations des couleurs, #0 vaut mieux que rgb(00,00,00).
+
+Des outils tels que [ycssmin](https://github.com/yui/ycssmin) ou le module Apache [mod_pagespeed](https://github.com/pagespeed/mod_pagespeed/) de Google proposent l'automatisation de ce processus.

@@ -12,4 +12,14 @@ Les images les plus simples, compressées et utilisant une palette de couleur mi
 Les navigateurs possèdent des capacités de création d’objets graphiques en interprétant des codes texte de mise en page (le CSS).
 Ces objets graphiques vont des simples rectangles colorés et augmentés de bordure pour le CSS2 jusqu’à des objets arrondis, en 3D et avec des dégradés de couleurs pour le CSS3 désormais courramment interprété.
 
-Utiliser des objets définis par CSS remplace plusieurs fichiers de plusieurs milliers d’octets par quelques lignes de codes de plusieurs dizaines (au plus centaines d’octets). Ce code étant rassemblé dans un seul fichier, l’économis s’étend aussi au coût du transfert HTTP pour chaque image.
+Utiliser des objets définis par CSS remplace plusieurs fichiers de plusieurs milliers d’octets par quelques lignes de codes de plusieurs dizaines (au plus centaines d’octets).
+Ce code étant rassemblé dans un seul fichier, l’économie s’étend aussi au coût du transfert HTTP pour chaque image.
+
+Pour un bouton au coin arrondi et avec un dégradé de gris, il est possible d'utiliser :
+
+```css
+#bouton {
+  border-radius: 10px;
+  background : linear-gradient(#444, #999);
+}
+```

@@ -10,3 +10,16 @@ Les systèmes d’exploitation possèdent des timers périodiques qui séquencen
 Cela a un impact sur la consommation du processeur car il entre moins souvent en veille.
 
 Il faut limiter l’usage de fonctions qui augmente le timer des systèmes. Par exemple on évitera l’usage de setTimeout() ou setInterval() avec des variables inférieures à 10 ms.
+
+Exemple d'usage à éviter, affichant l'heure toutes les 5 ms :
+
+```js
+var myVar = setInterval(function(){myTimer()},5);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+```
+
+Dans le cas d'un timer inférieur à 10 ms, l'usage doit être justifié (fonction graphique par exemple).

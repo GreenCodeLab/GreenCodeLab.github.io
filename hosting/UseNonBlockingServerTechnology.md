@@ -10,3 +10,5 @@ Les serveurs web classiques sont généralement basés sur des technologies « t
 Les serveurs de type non bloquant permettent un usage plus efficient des ressources matérielles.
 
 Il est nécessaire d’utiliser des technologies non bloquantes et basées sur des événements pour les serveurs web.
+
+Exemple de solutions non bloquantes : Nginx, Jetty.

@@ -10,3 +10,5 @@ level: 1
 Les contenus multimédias consomment de la bande passante et des ressources (CPU/GPU, RAM).
 Un lancement non sollicité consommera donc de l’énergie sans utilité finale, car il n’y a pas de solliciation utilisateur.
 De plus, le lancement automatique de contenus multimédias pose des problèmes d’accessibilité.
+
+De plus, il convient de fournir un moyen visibile et accessible de mettre en pause le contenu.
