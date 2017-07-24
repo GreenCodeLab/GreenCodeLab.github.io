@@ -4,3 +4,5 @@ level: 2
 ---
 
 ## Dédoublonner systématiquement les fichiers avant envoi
+
+*À RÉDIGER*

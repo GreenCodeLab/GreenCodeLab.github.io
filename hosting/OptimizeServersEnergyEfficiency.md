@@ -4,3 +4,5 @@ level: 2
 ---
 
 ## Optimiser l'efficacité énergétique des serveurs
+
+*À RÉDIGER*
